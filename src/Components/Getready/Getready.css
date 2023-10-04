@@ -1,0 +1,211 @@
+.Getready{
+    width: 100%;
+    height: 100vh;
+}
+.Getready .map-text{
+    width: 100%;
+    position: relative;
+    z-index: 4;
+}
+.Getready .map-text .mapworld{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+.Getready .map-text .text-1{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.705);
+}
+.Getready .map-text .text-1 .qasim{
+    width: 90px;
+    height: 90px;
+    border: 3px solid #0077FF;
+    position: absolute;
+    top: 200px;
+    left: 750px;
+}
+.Getready .map-text .text-1 .qasim-1{
+    width: 60px;
+    height: 60px;
+    border: 3px solid #0077FF;
+    position: absolute;
+    top: 175px;
+    left: 370px;
+}
+.Getready .map-text .text-1 .qasim-4{
+    width: 60px;
+    height: 60px;
+    border: 3px solid #0077FF;
+    position: absolute;
+    bottom: 105px;
+    right: 200px;
+}
+.Getready .map-text .text-1 .qasim-2{
+    width: 90px;
+    height: 90px;
+    border: 3px solid #0077FF;
+    position: absolute;
+    top: 100px;
+    right: 180px;
+}
+.Getready .map-text .text-1 .qasim-3{
+    width: 90px;
+    height: 90px;
+    border: 3px solid #0077FF;
+    position: absolute;
+    bottom: 120px;
+    left: 195px;
+}
+.Getready .map-text .text-1 .h1{
+    text-align: center;
+    text-transform:capitalize ;
+    font-size: 48px;
+  padding-top: 290px;   
+}
+
+@media (max-width:900px) {
+    .Getready{
+        width: 100%;
+        height: 50vh;
+    }
+    .Getready .map-text{
+        width: 100%;
+        position: relative;
+        z-index: 4;
+    }
+    .Getready .map-text .mapworld{
+        position: absolute;
+        width: 100%;
+        height: 50vh;
+        z-index: -1;
+    }
+    .Getready .map-text .text-1{
+        width: 100%;
+        height: 50vh;
+        background-color: rgba(255, 255, 255, 0.705);
+    }
+    .Getready .map-text .text-1 .h1 {
+        padding-top: 170px;
+        font-size: 38px;
+    }
+    .Getready .map-text .text-1 .btns-ops{
+        margin-left: 265px;
+    }
+    .Getready .map-text .text-1 .qasim-3{
+        width: 90px;
+        height: 90px;
+        border: 3px solid #0077FF;
+        position: absolute;
+        bottom: 80px;
+        left: 115px;
+    }
+    .Getready .map-text .text-1 .qasim-1{
+        width: 60px;
+        height: 60px;
+        border: 3px solid #0077FF;
+        position: absolute;
+        top: 50px;
+        left: 110px;
+    }
+    .Getready .map-text .text-1 .qasim-2{
+        width: 90px;
+        height: 90px;
+        border: 3px solid #0077FF;
+        position: absolute;
+        top: 30px;
+        right: 100px;
+    }
+    .Getready .map-text .text-1 .qasim{
+        width: 90px;
+        height: 90px;
+        border: 3px solid #0077FF;
+        position: absolute;
+        top: 80px;
+        left: 325px;
+    }
+    .Getready .map-text .text-1 .qasim-4{
+        width: 60px;
+        height: 60px;
+        border: 3px solid #0077FF;
+        position: absolute;
+        bottom: 85px;
+        right: 170px;
+    }
+}
+
+
+
+@media (max-width:600px) {
+    .Getready{
+        width: 100%;
+        height: 50vh;
+    }
+    .Getready .map-text{
+        width: 100%;
+        position: relative;
+        z-index: 4;
+    }
+    .Getready .map-text .mapworld{
+        position: absolute;
+        width: 100%;
+        height: 50vh;
+        z-index: -1;
+    }
+    .Getready .map-text .text-1{
+        width: 100%;
+        height: 50vh;
+        background-color: rgba(255, 255, 255, 0.705);
+    }
+    .Getready .map-text .text-1 .h1 {
+        padding-top: 130px;
+        font-size: 18px;
+    }
+    .Getready .map-text .text-1 .btns-ops{
+        margin-left: 70px;
+    }
+    .Getready .map-text .text-1 .qasim-3{
+        width: 50px;
+        height: 50px;
+        border: 3px solid #0077FF;
+        position: absolute;
+        bottom: 30px;
+        left: 20px;
+    }
+    .Getready .map-text .text-1 .qasim-1{
+        width: 30px;
+        height: 30px;
+        border: 3px solid #0077FF;
+        position: absolute;
+        top: 30px;
+        left: 60px;
+    }
+    .Getready .map-text .text-1 .qasim-2{
+        width: 50px;
+        height: 50px;
+        border: 3px solid #0077FF;
+        position: absolute;
+        top: 30px;
+        right: 40px;
+    }
+    .Getready .map-text .text-1 .qasim{
+        width: 50px;
+        height: 50px;
+        border: 3px solid #0077FF;
+        position: absolute;
+        top: 70px;
+        left: 165px;
+    }
+    .Getready .map-text .text-1 .qasim-4{
+        width: 30px;
+        height: 30px;
+        border: 3px solid #0077FF;
+        position: absolute;
+        bottom: 45px;
+        right: 30px;
+    }
+    .Getready .map-text .text-1 .btns-ops .btn-m{
+        padding: 5px 20px;
+    }
+}

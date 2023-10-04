@@ -1,0 +1,112 @@
+nav{
+    display: flex;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    height: 60px;
+    background-color: rgb(249, 249, 249);
+    padding-top: 10px;
+    justify-content: space-around;
+}
+nav ul{
+    display: flex;
+    transition: .5s;
+}
+nav ul li{
+    padding: 1px 15px;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: -5px;
+}
+nav ul .un {
+    display: inline-block;
+}
+nav ul .un:after {
+    content: '';
+    width: 0px;
+    height: 3px;
+    display: block;
+    background:#0077FF ;
+    transition: 300ms;
+}
+nav ul .un:hover:after {
+    width: 100%;
+}
+nav .login-btns .btn-1:hover{
+    background-color: #0077FF;
+    color: white;
+    border-color: #0077FF;
+}
+nav .login-btns .btn-2:hover{
+    color: #0077FF;
+    
+}
+nav .login-btns{
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+}
+nav .btn-mob{
+    display: none;
+    
+}
+
+@media (max-width:900px) {
+nav{
+    justify-content: space-between;
+
+    
+}
+nav .h4{
+    margin-left: 20px;
+}
+
+nav ul{
+    width: 102.5%;
+    background-color: rgb(249, 249, 249) ;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: -50px;
+    padding-bottom: 50px;
+}
+
+nav ul.open{
+    display: flex;
+    z-index: 5;
+}
+nav ul li{
+    padding: 20px 10px;
+    text-align: center;
+}
+nav .login-btns{
+    display: none;
+    position: absolute;
+    flex-direction: row;
+    margin-top: 230px;
+    z-index: 5;
+}
+nav .login-btns#open{
+    display: flex;
+}
+
+nav .btn-mob{
+    display: block;
+}
+    
+}
+@media (max-width:600px){
+    nav{
+        justify-content: space-between;
+        
+    }
+    nav .h4{
+        margin-left: 0px;
+    }
+    .css-1uo30jm-MuiTypography-root {
+        padding-left: 20px;
+    }
+} 

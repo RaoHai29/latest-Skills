@@ -1,0 +1,29 @@
+@media (max-width:900px) {
+    .css-3f6ufr-MuiGrid-root>.MuiGrid-item {
+        padding-left: 35px !important;
+    }
+    .css-4x08cf > .MuiGrid-item {
+        padding-left: 35px !important;
+    }
+    .email-btn{
+        font-size: 12px !important;
+    }
+    .head-1{
+        font-size: 25px;
+        padding-right: 50px;
+    }
+}
+@media (max-width:600px) {
+    .css-3f6ufr-MuiGrid-root>.MuiGrid-item {
+        padding-left: 20px !important;
+    }
+    .css-4x08cf > .MuiGrid-item {
+        padding-left: 20px !important;
+    }
+    .email-btn{
+        font-size: 12px;
+        margin-left: -30px !important;
+    }
+    
+    
+}

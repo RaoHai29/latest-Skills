@@ -1,0 +1,121 @@
+.Feature{
+    
+    margin-top: 50px;
+    padding-left: 180px;
+    margin-bottom: 20px;
+}
+.Feature .subtitle{
+    font-size: 15px;
+    font-weight: 600;
+    color: #0077FF;
+    text-transform: uppercase;
+    margin-left: 550px;
+    padding-bottom: 30px;
+    font-family:monospace; 
+}
+.Feature .h3{
+    font-weight: 700;
+    margin-left: 310px;
+}
+.Feature .job-options{
+    display: flex;
+    flex-direction: row;
+}
+.Feature .job-options .h5{
+    margin-left: 10px;
+    padding: 20px 30px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    border-bottom: 3px solid transparent;
+    color: rgb(56, 56, 56);
+    cursor: pointer;
+    width: 150px;
+    transition: 0.3s;
+    margin-right: 0px;
+}
+.Feature .job-options .h5:hover{
+    border-bottom-color:#0077FF ;
+    color: #0077FF;
+}
+.Feature .emoji{
+    width: 50px;
+    height: 50px;
+}
+.Feature .freelance-go{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 470px;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+    background-color: #0077FF;
+}
+
+
+
+
+
+
+@media (max-width:900px) {
+    .Feature{
+        padding-left: 120px;
+    }
+    .Feature .subtitle{
+        margin-left: 250px;
+    }
+    .Feature .h3{
+        margin-left: 10px;
+    }
+    .Feature .job-options{
+        margin-left: -100px;
+    }
+    .Feature .job-options .h5{
+        padding: 10px 15px;
+        font-size: 13px;
+        width: 135px;
+    }
+    .Feature .freelance-go{
+        margin-left: 0px;
+    }
+}
+
+
+
+@media (max-width:600px) {
+    .Feature{
+        padding-left: 20px;
+    }
+    .Feature .subtitle{
+        margin-left: 110px;
+    }
+    .Feature .emoji{
+        width: 30px;
+        height: 30px;
+    }
+    .Feature .h3{
+        margin-left: 0px;
+        padding-left: 0;
+        font-size: 24px;
+    }
+    .Feature .job-options{
+        margin-left: 0px;
+        flex-direction: column !important;
+    }
+    .Feature .job-options .h5{
+        padding: 10px 30px;
+        font-size: 17px;
+        width: 200px;
+        align-self: end;
+    }
+    .Feature .freelance-go{
+        margin-left: 50px;
+    }
+    .css-1b8q9c9-MuiPaper-root-MuiCard-root {
+        margin-right: 0 !important;
+    }
+    .css-1b8q9c9-MuiPaper-root-MuiCard-root {
+        margin-left: 50px !important;
+    }
+    
+}

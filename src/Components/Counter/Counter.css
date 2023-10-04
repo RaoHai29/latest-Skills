@@ -1,0 +1,38 @@
+.counter{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 80px;
+    padding-left: 130px;
+    height: 170px;
+    background-color: black;
+    justify-content: space-around;
+}
+
+@media (max-width:900px) {
+    .counter{
+        padding-left: 0px;
+        padding-top: 50px;
+        margin-top: 360px;
+        justify-content: none;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: auto;
+    }
+    .counter .count{
+        margin-bottom: 30px;
+        padding: 20px 60px;
+    }
+    
+}
+@media (max-width:600px) {
+    .counter{
+        margin-top: 220px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+}

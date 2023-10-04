@@ -1,0 +1,26 @@
+.Cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Cards .country{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 12px;
+    font-size: 13px;
+    font-weight: 550;
+    background-color: white;
+    padding: 3px 12px;
+    border-radius: 4px;
+
+}
+.Cards .bluetick{
+    position: absolute;
+    margin-top: 160px;
+    margin-left: -65px;
+    width: 25px;
+    height: 25px;
+
+}
+

@@ -1,0 +1,152 @@
+.Categories{
+    margin-top: 30px;
+    padding-top: 50px;
+    width: 100%;
+    height: 85vh;
+    background-color: white;
+}
+.Categories .Cate-Accord{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.Categories .Cate-Accord .left,.Catogories .Cate-Accord .right{
+   
+    flex: 1;
+}
+.Categories .Cate-Accord .left{
+    margin-left: 130px;
+}
+.Categories .Cate-Accord .left .h3{
+    margin-top: 20px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.Categories .Cate-Accord .left .Numbers{
+    margin-top: 15px;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: #0077ff1d;
+    font-weight: 600;
+    color:#0077FF ;
+}
+.Categories .Cate-Accord .left .ac-text{
+    width: 80%;
+    padding-top: 12px;
+}
+.Categories .Cate-Accord .left .ac-text .h6{
+    font-size: 22px;
+    font-weight: 600;
+}
+.Categories .Cate-Accord .left .button{
+    padding-top: 18px;
+    
+}
+.Categories .Cate-Accord .left .ac-text .p{
+    width: 100%;
+    
+}
+.Categories .Cate-Accord .right{
+    padding-right: 80px;
+}
+.Categories .Cate-Accord .right .women{
+    width: 600px;
+    height: 520px;
+    border-radius: 30px;
+    border-top-right-radius: 0;
+}
+.Categories .Cate-Accord .right .chart{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: -55px;
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
+
+}
+.Categories .Cate-Accord .right .wavy{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: -619px;
+    width: 50px;
+    height: 50px;
+   
+   
+
+}
+
+@media (max-width:900px) {
+    .Categories{
+        height: auto;
+    }
+    .Categories .Cate-Accord{
+        flex-direction: column;
+    }
+    .Categories .Cate-Accord .left{
+        margin-left: 60px;
+    }
+    .Categories .Cate-Accord .right{
+        margin-top: 80px;
+        margin-left: 50px;
+        margin-bottom: 50px;
+    }
+    .Category .category-main .select-jobs .select-btn {
+        width: 265px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width:600px) {
+  
+    .Categories .Cate-Accord .left{
+        margin-left: 20px;
+    }
+    .Categories .Cate-Accord .right{
+        margin-top: 80px;
+        margin-left: 20px;
+        margin-bottom: 50px;
+    }
+    .Categories .Cate-Accord .left .option-down{
+        width: 95%;
+    }
+    .Categories .Cate-Accord .left .option-down .Numbers{
+        padding: 5px 15px;
+        font-size: 13px;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    
+    }
+    .Categories .Cate-Accord .left .option-down .ac-text .h6{
+        font-size: 17px;
+    }
+    .Categories .Cate-Accord .left .option-down .ac-text .p{
+        font-size: 11px;
+    }
+    .Categories .Cate-Accord .left .h3{
+        font-size: 28px;
+    }
+    .Categories .Cate-Accord .left .p-1{
+        font-size: 12px;
+    }
+    .Categories .Cate-Accord .right .women{
+        width: 300px;
+        height: 250px;
+    }
+    .Categories .Cate-Accord .right .chart{
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        left: 310px;
+        margin-top: -180px;
+    }
+    .Categories .Cate-Accord .right .wavy{
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        left: 0px;
+        margin-left: 10px;
+        margin-top: -60px;
+    }
+}
